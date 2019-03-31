@@ -1,4 +1,8 @@
 # REPORT
+*Name  : Rishitha*
+
+*Reg no. 180903004*
+
 **Raspberry pi**
 
 Differently used versions of raspberry pi are R-pi zero,
@@ -41,3 +45,47 @@ Text user and graphic user interface are the 2 types.
 In text interface after the prompt on the screen we just have to write our commands for the desired output.
 And there are device drivers which act as translator between hardware device and operating system that use it.
 
+**Overclocking**
+
+Different parts of the chip run at different frequency.
+Overclocking is the process of increasing the clock frequency i.e time taken to reach the next clock edge is reduced.
+
+# Linux
+
+***Text user interface***
+Shell-It reads the user input and displays on the screen.
+BASH-default shell for Raspian.
+man pwd gives the information about a command like how to use it.
+Linux filesystem is a hierarchy of directories(it simply means folder).
+
+**Commands**
+
+pwd-current directory location
+cd-change directory
+Ls-contents of the directory
+ls-l -details about all the directories under a current directory
+mkdir-creates a directory
+rmdir-removes a directory
+sudo-root permission to a command
+ps-gives all the processes being performed
+kill-kills the process
+shutdown
+
+**Creating and accesing a file**
+
+Using text editor and nano
+cat-to print contents in file
+head,body-to print the first and last 10 lines of the file
+cp-copy(takes 2 arguments)
+mv-move
+
+**File permissions**
+
+R,W,X-read ,write ,execute
+Permissions for user refers to owner
+group refers to group of people
+others refers to everyone else
+
+***Graphical user interface***
+
+startx-to start the GUI window system
